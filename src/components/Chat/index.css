@@ -1,0 +1,144 @@
+.containers {
+  position: fixed;
+  bottom: 0%;
+  pointer-events: none;
+  height: 10%;
+}
+
+.chat-box {
+  /* width: 300px; */
+  display: inline-block;
+  pointer-events: auto;
+  border-radius: 50rem !important;
+  background-color: #f2f2f2;
+  margin-left: 13%;
+  padding: 5%;
+  padding-right: 70px;
+  width: fit-content;
+  outline: none;
+}
+
+.chat-box:focus {
+  background-color: #f2f2f2;
+}
+
+.closeBtn {
+  border: none;
+  background: none;
+  float: right;
+  height: 1;
+}
+
+.closeBtn,
+.closeBtn:hover,
+.closeBtn:active,
+.closeBtn:visited,
+.closeBtn:focus {
+  outline: none;
+}
+
+.mine {
+  color: white;
+  background-color: grey;
+  border-radius: 20px;
+  margin-right: 10px;
+  width: max-content;
+  max-width: 80%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-bottom: 0px;
+  text-align: left;
+  overflow-wrap: break-word;
+}
+
+.theirs {
+  border-radius: 20px;
+  margin-left: 10px;
+  width: max-content;
+  max-width: 80%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  text-align: left;
+  overflow-wrap: break-word;
+  box-shadow: 0px 4px 4px rgba(50, 50, 71, 0.08),
+    0px 4px 8px rgba(50, 50, 71, 0.06);
+}
+
+.pg-viewer-wrapper {
+  overflow-y: hidden !important;
+}
+
+.photo-viewer-container {
+  width: unset !important;
+  height: unset !important;
+}
+
+.photo-viewer-container > img {
+  width: unset !important;
+  height: unset !important;
+}
+
+/* file viewer */
+.error {
+  position: absolute;
+  top: 45%;
+  left: 40%;
+}
+
+.loading {
+  position: absolute;
+  top: 45%;
+  left: 43%;
+}
+
+.pdfClass canvas {
+  width: 90% !important;
+  margin-top: 25px !important;
+}
+
+.imgfile {
+  width: 100%;
+  height: 100%;
+}
+
+.mypdf {
+  max-height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.mypdf::-webkit-scrollbar {
+  width: 0;
+}
+
+.react-pdf__Page {
+  margin-top: 0px !important;
+  margin-bottom: 65px !important;
+}
+
+.react-pdf__Page__textContent {
+  margin-top: -20px !important;
+  width: 90% !important;
+  height: 100% !important;
+  border: 1px solid darkgrey;
+  box-shadow: 5px 5px 5px 1px #ccc;
+  border-radius: 5px;
+}
+
+.react-pdf__Page__canvas {
+  margin: 0 auto;
+}
+
+.fileClose {
+  position: absolute;
+  right: 4%;
+  top: 5%;
+  z-index: 2;
+}
+
+.mychats p:last-child {
+  margin-bottom: 90px;
+}
